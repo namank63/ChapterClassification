@@ -1,3 +1,30 @@
+>> Note:
+    > Open in VSC for best experience
+    > Introduction ke liye NesoAcademy (link given below) ke suru ke videos MUST dekho!!
+    > Flow ke according (means not layer ke according) wala Classification bhi given hai resources me, use that link for topic matching!! OR you can also follow it as the primary flow.
+    > Jo chapter wise banaya hu wo ma'am se most match kar rha. (Still kuch kuch cheje missing ho sakti)
+    > Networking kai jagah kai trah se pada rhe sab to don't worry ke topic match na kar rha keep following 1 resource sab aayega jiska jab time hoga fir bhi na mile to topic wala notes dekhlo or simply google it.
+    > Must see gatevidyalay(link given below) se Subnetting wala section ma'am bohot padai hai usko and given Classification me nhi hai wo
+    > (M) means ma'am ke muh se kabhi to suna hu (Ab mai har common topic pe na lagaunga, sirf aise topics pe jinko leke confussion ho)
+    > Sab kuch bohot deep me na padna jyada deep wale skip. Sirf viva layak padlo!!
+    > Last me ma'am jo jo padaye hai till lecture 13 wosab as keywords likh diya hu.
+
+>> Resources:
+    YT: 
+        NesoAcademy: https://www.youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx
+        GateSmasher: https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_
+
+    Notes:
+        Hand Written:
+            Full Note: https://www.slideshare.net/nandini72/computer-network-notes-handwritten-unit-1
+        Text: 
+            For Full Note(lecturenotes): https://lecturenotes.in/notes/15529-note-for-computer-network-cn-by-tulasi-miriyala?reading=true
+            Topic Wise (GateVidyalay): https://www.gatevidyalay.com/computer-networks/
+
+    Classification accorfing to Flow:
+        https://examupdates.in/computer-network-notes/
+
+CLASSIFICATION (Reference: Primarly lecturenotes)
 Chapter 01: Introduction
     1) Basic Communication model
         a) Source
@@ -77,16 +104,16 @@ Chapter 02: Data Communications
             A) Synchronous TDM
             B) Asynchronous TDM
 
-    3) Switching
+    3) Switching---------------(M) Bohot joor deke padai the
         a) Message Switching
         b) Packet Switching
         c) Circuit Switching
     
     4) Transmission in ISDN
-        a) Basic Rate Interface (BRI)
-        b) Primary Rate Interface (PRI)
-        c) Narrowband ISDN (N-ISDN)
-        d) Broadband ISDN (B-ISDN)
+        a) Basic Rate Interface (BRI)----(M)
+        b) Primary Rate Interface (PRI)--(M)
+        c) Narrowband ISDN (N-ISDN)------(M)
+        d) Broadband ISDN (B-ISDN)-------(M)
     
     5) ATM Network (Asynchronous Transfer Mode)
         a) ATM Adaptive Layer
@@ -107,8 +134,8 @@ Chapter 03: Data Link Layer
             C) Burst Error
         b) Error Control Mechanism ways
             A) Error Detection
-                i) Parity Check
-                ii) Cyclic Redundancy Check (CRC)
+                i) Parity Check--------------------(M)
+                ii) Cyclic Redundancy Check (CRC)--(M)
             B) Error Correction
                 i) Backward Error Correction
                 ii) Forward Error Correction
@@ -178,8 +205,8 @@ Chapter 04: Design Issue in Network
             A) Leak Bucket Algorithm
             B) Token Bucket Algorithm
     3) Network Layer Protocol
-        a) Address Resolution Protocol (ARP)
-        b) Internet Control Message Protocol (ICMP)
+        a) Address Resolution Protocol (ARP)----------(M)
+        b) Internet Control Message Protocol (ICMP)---(M)
         c) Interner Protocol Version 4 (IPv4)
         d) Interner Protocol Version 6 (IPv6)
     4) Internetworking
@@ -264,7 +291,7 @@ Chapter 06: DNS
             D) Biometrics
 
 
-Chapter 7 & 8
+Chapter 07 & 08
     1) Network Devices
         a) Network and Internetworking Devices
             A) Router
@@ -285,3 +312,66 @@ Chapter 7 & 8
             C) Transmission Modems
                 i) Asynchronous Modems
                 ii) Synchronous Modems
+
+
+>> Ma'am ke padaye topics (Not 100% but lecture wise kuch to hai...):
+    Internet
+    packet switches
+    host
+    communication link
+    connected devices
+    protocals
+    internet standards
+    RFC: Request for comments
+    IETF: Internet Engineering task force
+    Packet switch: Router, Switches
+    Circuit Switching
+    Packet Switching
+    Store and Forward transmission
+    Transmission rate and propagation delay
+    Processing Delay
+    Queuing Delay
+    Transmission Delay
+    Propagation Delay
+    Packet Loss
+    End to End Delay
+    Through put
+    Monolithic architecture
+    TCP/IP Layers
+	Application layer Protocol: HTTP, SMTP, DNS
+    Transport Layer
+    TCP Protocol
+    UDP Protocol
+    SCTP Protocol
+    Network Layer
+    Data link layer
+    Flow Control
+    Physical Layer
+    Simplex
+	Half Duplex
+    Full Duplex
+    Data Link Layer
+    Access Point
+    Shared Medium
+    Medium Access Control
+    ALOHA
+    CSMA|CD
+    CSMA|CA
+    Frame
+    MAC Protocol
+    Collision
+    Switches
+    Hubs
+    IP Address
+    Subnet
+    Routing and Forwarding
+    Routing table
+    Static and Dynamic
+	    1. RIP (Lan Envo)
+	    2. OSPF (same)
+        3. BGP (WAN Level)
+    Gateway
+    Default gateway
+    Address Resolution Protocol
+    RIP: Routing Information Protocol
+    OSPF
