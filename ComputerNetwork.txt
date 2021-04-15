@@ -1,0 +1,287 @@
+Chapter 01: Introduction
+    1) Basic Communication model
+        a) Source
+        b) Transmitter
+        c) Transmission System
+        d) Reciever
+        e) Destination
+
+    2) Data Communication
+        a) Local
+        b) Remote
+            A) Message
+            B) Sender
+            C) Receiver
+            D) Medium
+            E) Protocols
+        
+    3) Network Topology
+        a) BUS Topology
+        b) RING Topology
+        c) STAR Topology
+        d) MESH Topology
+        e) TREE Topology
+        f) HYBRID Topology
+
+    4) Transmisson Modes in Computer Network
+        a) Simplex Mode
+        b) Half Duplex Mode
+        c) Full Duplex Mode
+
+    5) Types of Communication network
+        a) LAN
+        b) MAN
+        c) WAN
+        d) Wireless Network
+        e) Inter Network
+        f) Connection Oriented and Connectionless Services
+
+    6) ISO/OSI Model in Communication Networks
+        a) Features of OSI Models
+        b) OSI model Layers
+            A) Physical Layer
+            B) Data link Layer
+            C) Network Layer
+            D) Transport Layer
+            E) Session Layer
+            F) Presentation Layer
+            G) Application Layer
+
+        c) TCP/IP Reference Model
+            A) Host-to-Network Layer
+            B) Interner Layer
+            C) Transport Layer
+            D) Application layer
+
+        d) OSI vs TCP/IP Model
+
+
+Chapter 02: Data Communications
+    1) Transmission Mediums
+        a) Bounded/Guided Media
+            A) Twisted
+                i) Shielded
+                ii) UnShielded
+            B) Coaxial Cables
+                i) Baseband
+                ii) Broadband
+        b) Fiber Optic Cable
+        c) UnBounded/UnGuided Media
+            i) Radio Transmission
+            ii) Microwave Transmission
+    
+    2) Multiplexing
+        a) Frequency Division Multiplexing
+        b) Wave Division Multiplexing
+        c) Time Division Multiplexing
+            A) Synchronous TDM
+            B) Asynchronous TDM
+
+    3) Switching
+        a) Message Switching
+        b) Packet Switching
+        c) Circuit Switching
+    
+    4) Transmission in ISDN
+        a) Basic Rate Interface (BRI)
+        b) Primary Rate Interface (PRI)
+        c) Narrowband ISDN (N-ISDN)
+        d) Broadband ISDN (B-ISDN)
+    
+    5) ATM Network (Asynchronous Transfer Mode)
+        a) ATM Adaptive Layer
+
+
+Chapter 03: Data Link Layer
+    1) Has two sub-layer
+        a) Logical Link Control
+        b) Media Access Control
+    2) Framing
+    3) Addressing
+    4) Synchronization
+    5) Multi-Access
+    6) Error Control
+        a) Types of Error
+            A) Single Bit Error
+            B) Multiple Bit Error
+            C) Burst Error
+        b) Error Control Mechanism ways
+            A) Error Detection
+                i) Parity Check
+                ii) Cyclic Redundancy Check (CRC)
+            B) Error Correction
+                i) Backward Error Correction
+                ii) Forward Error Correction
+    7) Flow Control
+        a) Types of Mechanism
+            i) Stop and wait
+            ii) Sliding Window
+        b) Error Control
+            i) Error Detection
+            ii) Positive ACK
+            iii) Negative ACK
+            iv) Retransmission
+            v) Stop-and-wait ARQ
+            vi) Go-Back-N ARQ
+            vii) Selective Repeat ARQ 
+    8) IEEE STANDARD FOR LAN'S & MAN'S
+        a) Data link layer
+            i) LLC sublayer
+            ii) MAC sublayer
+        b) Physical layer
+
+
+Chapter 04: Design Issue in Network
+    1) Routing
+        a) Hop Count
+        b) Bandwidth
+        c) Metric
+        d) Prefix-length
+        e) Delay
+        Routing Types
+            A) Broadcast Routing
+            B) Multicast Routing
+            C) Anycast Routing
+            D) Unicast Routing Protocol
+                i) Distance Vector Routing Protocol
+                ii) Link State Routing Protocol
+            E) Multicast Routing Protocol
+                i) DVMRP
+                ii) MOSPF
+                iii) CBT
+                iv) PIM
+                    * PIM Dense Mode
+                    * PIM Spare Mode
+
+        f) Routing Algorithm
+            A) Flooding
+            B) Shortest Path
+                i) Dijkstra 
+                ii) Bellman Ford
+                iii) Floyd Warshall
+                    
+    2) Congestion Control Protocol
+        a) Causing of Congestion
+        b) Congestion Control
+            A) Open Loop
+                i) Restransmission Policy
+                ii) Window Policy
+                iii) Acknowledgement Policy
+                iv) Discarding Policy
+                v) Admission Policy
+            B) Closed Loop
+                i) Backpressure
+                ii) Choke Packet
+                iii) Implicit Signaling
+                iv) Explicit Signaling
+        c) Congestion Control Algorithm
+            A) Leak Bucket Algorithm
+            B) Token Bucket Algorithm
+    3) Network Layer Protocol
+        a) Address Resolution Protocol (ARP)
+        b) Internet Control Message Protocol (ICMP)
+        c) Interner Protocol Version 4 (IPv4)
+        d) Interner Protocol Version 6 (IPv6)
+    4) Internetworking
+        a) Tunneling
+        b) Packet Framing
+
+
+Chapter 05: Transport Layer Protocol
+    1) TCP
+        a) TCP Connection Establishment
+        b) TCP Timestamps Option
+    2) UDP
+        a) Source Port Number
+        b) Destination port Number
+        c) Datagram size
+        d) Checksum
+
+
+Chapter 06: DNS
+    1) Domain Name Space
+    2) Types of Name Servers
+        a) Root Server
+        b) Primary Server
+        c) Secondary Server
+    3) Resource Records
+        a) Domain Name
+        b) Class
+        c) Type
+        d) Time to live
+        e) Value
+    4) SNMP:
+        a) Managers and Agents
+        b) SM1
+        c) MIB
+        d) SNMP defines five Message
+            i) Get request
+            ii) Get Next Request
+            iii) Get Response
+            iv) Set Request
+            v) Trap
+    5) Electronic mail
+        a) Message header
+        b) Header Files
+    6) Pretty Good Privacy (PGP)
+        a) compatibility
+        b) Confidentiality
+        c) Data Signature
+    7) File Transfer Protocol
+    8) Trivial File Transfer Protocol (TFTP)
+    9) BootStrap Protocol (BOOTP)
+    10) HTTP Protocol
+        a) HTTP is Connectionless
+        b) HTTP is media independent
+        c) HTTP is stateless
+        d) Basic architecture
+            A) Header Files
+                i) General-header
+                ii) request-header
+                iii) Response-header
+                iv) entity header
+    11) World Wide Web
+    12) Firewall
+        a) Vulnerable Services
+        b) Routing based attacks
+        c) Controlled access to our System
+        d) Authentication
+        e) Enhanced Privacy
+        f) PING & SYN attack
+        g) Firewall Mechanism
+            A) Network Policy
+            B) Authentication Mechanism
+            C) Packet Filter
+            D) Application Gateway
+        h) Contain Problems with Firewall
+            A) Complacency
+            B) Encapsulated
+            C) Throughput
+        i) Authentication
+            A) One Tme Password
+            B) Password Again
+            C) Smart Card
+            D) Biometrics
+
+
+Chapter 7 & 8
+    1) Network Devices
+        a) Network and Internetworking Devices
+            A) Router
+            B) Brouter
+            C) Hub
+            D) Switch
+            E) Repeaters
+            F) Bridges
+            G) Gateway
+            H) Routing Algorithm
+        b) Modems
+            A) Directional Capacity
+                i) Half Duplex Modems
+                ii) Full Duplex Modems
+            B) Connection to the line
+                i) 2-wire Modems
+                ii) 4-wire Modems
+            C) Transmission Modems
+                i) Asynchronous Modems
+                ii) Synchronous Modems
