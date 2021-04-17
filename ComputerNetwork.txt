@@ -15,7 +15,7 @@
         GateSmasher: https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_
 
     Notes:
-        Hand Written:
+        Hand Written (Last me jaha unit-1 hai waha 2 3 4 karte jana next unit aata rahega...):
             Full Note: https://www.slideshare.net/nandini72/computer-network-notes-handwritten-unit-1
         Text: 
             For Full Note(lecturenotes): https://lecturenotes.in/notes/15529-note-for-computer-network-cn-by-tulasi-miriyala?reading=true
